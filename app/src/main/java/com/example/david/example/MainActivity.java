@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 
+import com.google.android.m4b.maps.SupportMapFragment;
 import com.parse.Parse;
 
 public class MainActivity extends FragmentActivity {
@@ -37,7 +38,7 @@ public class MainActivity extends FragmentActivity {
             if(position == 0){
                 return new NewsFragment();
             }else{
-                return new MyMapFragment();
+                return new SupportMapFragment();
             }
         }
 

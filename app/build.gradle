@@ -24,4 +24,11 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.parse.bolts:bolts-android:1.+'
     compile fileTree(dir: 'libs', include: 'Parse-*.jar')
+    compile(name:'google-maps-sdk-m4b', ext:'aar')
+}
+
+repositories {
+    flatDir{
+        dirs 'libs'
+    }
 }

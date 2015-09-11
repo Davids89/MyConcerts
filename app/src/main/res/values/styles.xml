@@ -5,4 +5,9 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="Pager">
+        <item name="android:textColor">#14A804</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
 </resources>
